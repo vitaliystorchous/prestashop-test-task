@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a0181224-5eb1-4258-af85-d557c04bfba3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+  </component>
+  <component name="ProjectId" id="1WuMdJgkmQBaRY0kJeP7KCmRkdI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="my.prestashop.tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.SecondTest c&amp;r">
+    <configuration name="build without run" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+                <option value="-DskipTests" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="FirstTest c&amp;r" type="TestNG">
+      <module name="learn-webdriver" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="my.prestashop.tests" />
+      <option name="MAIN_CLASS_NAME" value="my.prestashop.tests.FirstTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="RunConfigurationTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstTest r" type="TestNG">
+      <module name="learn-webdriver" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="my.prestashop.tests" />
+      <option name="MAIN_CLASS_NAME" value="my.prestashop.tests.FirstTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2" />
+    </configuration>
+    <configuration name="SecondTest c&amp;r" type="TestNG" temporary="true">
+      <module name="learn-webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="my.prestashop.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="my.prestashop.tests" />
+      <option name="MAIN_CLASS_NAME" value="my.prestashop.tests.SecondTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="build without run" run_configuration_type="MavenRunConfiguration" />
+      </method>
+    </configuration>
+    <configuration name="SecondTest r" type="TestNG">
+      <module name="learn-webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="my.prestashop.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="my.prestashop.tests" />
+      <option name="MAIN_CLASS_NAME" value="my.prestashop.tests.SecondTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="my" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Maven.build without run" />
+      <item itemvalue="TestNG.FirstTest c&amp;r" />
+      <item itemvalue="TestNG.FirstTest r" />
+      <item itemvalue="TestNG.SecondTest r" />
+      <item itemvalue="TestNG.SecondTest c&amp;r" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.SecondTest c&amp;r" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a0181224-5eb1-4258-af85-d557c04bfba3" name="Default Changelist" comment="" />
+      <created>1579995112306</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579995112306</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="169" key="#BuildArtifactsBeforeRunChooser" timestamp="1580008910367">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="169" key="#BuildArtifactsBeforeRunChooser/0.0.1366.728@0.0.1366.728" timestamp="1580008910367" />
+    <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580073024212">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1580073024212" />
+    <state x="413" y="140" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1580007768719">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="140" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1580007768719" />
+    <state x="412" y="148" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1580008481524">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="412" y="148" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1580008481524" />
+    <state x="289" y="0" key="#learn-webdriver_[compile]" timestamp="1580036700825">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="289" y="0" key="#learn-webdriver_[compile]/0.0.1366.728@0.0.1366.728" timestamp="1580036700825" />
+    <state x="289" y="0" key="#learn-webdriver_[install]" timestamp="1580037225822">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="289" y="0" key="#learn-webdriver_[install]/0.0.1366.728@0.0.1366.728" timestamp="1580037225822" />
+    <state x="289" y="0" key="#learn-webdriver_[test]" timestamp="1580002075207">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="289" y="0" key="#learn-webdriver_[test]/0.0.1366.728@0.0.1366.728" timestamp="1580002075207" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1580008536681">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580008536681" />
+    <state width="1286" height="163" key="GridCell.Tab.0.bottom" timestamp="1580071505154">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580071505154" />
+    <state width="1286" height="163" key="GridCell.Tab.0.center" timestamp="1580071505154">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="163" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580071505154" />
+    <state width="1286" height="163" key="GridCell.Tab.0.left" timestamp="1580071505154">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="163" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580071505154" />
+    <state width="1286" height="163" key="GridCell.Tab.0.right" timestamp="1580071505154">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="163" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580071505154" />
+    <state width="1286" height="203" key="GridCell.Tab.1.bottom" timestamp="1580061208613">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="203" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580061208613" />
+    <state width="1286" height="203" key="GridCell.Tab.1.center" timestamp="1580061208613">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="203" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1580061208613" />
+    <state width="1286" height="203" key="GridCell.Tab.1.left" timestamp="1580061208613">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="203" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1580061208613" />
+    <state width="1286" height="203" key="GridCell.Tab.1.right" timestamp="1580061208613">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="203" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1580061208613" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1580004513898">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580004513898" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1580072808695">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1580072808695" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1580000532757">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1580000532757" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/my/prestashop/tests/FirstTest.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/my/prestashop/tests/FirstTest.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
