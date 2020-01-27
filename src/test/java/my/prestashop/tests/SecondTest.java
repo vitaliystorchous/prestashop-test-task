@@ -33,13 +33,58 @@ public class SecondTest {
         // где x - количество действительно найденных товаров.
         String productsQuantity = driver.findElement(By.cssSelector(".total-products")).getText();
         int numOfProducts = Integer.parseInt(productsQuantity.replaceAll("\\D+", ""));
-        System.out.println(numOfProducts);
         Assert.assertEquals(numOfProducts, driver.findElements(By.cssSelector(".product-miniature")).size());
 
         //6.Проверить, что цена всех показанных результатов отображается в долларах.
         for(int c = 1; c <= numOfProducts; c++) {
             String productsCssLocator = ".product-miniature:nth-child(" + Integer.toString(c) + ") .price";
             Assert.assertEquals(true, driver.findElement(By.cssSelector(productsCssLocator)).getText().contains("$"));
+        }
+
+        //7.Установить сортировку "от высокой к низкой."
+        driver.findElement(By.cssSelector(".products-sort-order")).click();
+        driver.findElement(By.xpath("//a[contains(@href, 'product.price.desc')]")).click();
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        //8.Проверить, что товары отсортированы по цене, при этом некоторые товары могут быть со скидкой,
+        // и при сортировке используется цена без скидки.
+        for(int c = 1; c < numOfProducts; c++) {
+            String currentProductsCssLocator = ".product-miniature:nth-child(" + Integer.toString(c) + ")";
+            String currentProductPrice;
+            if (driver.findElements(By.cssSelector(currentProductsCssLocator + " .regular-price")).size() > 0) {
+                currentProductPrice = driver.findElement(By.cssSelector(currentProductsCssLocator + " .regular-price")).getText();
+            } else {
+                currentProductPrice = driver.findElement(By.cssSelector(currentProductsCssLocator + " .price")).getText();
+            }
+            double currentPrice = getPrice(currentProductPrice);
+
+            String nextProductsCssLocator = ".product-miniature:nth-child(" + Integer.toString(c + 1) + ")";
+            String nextProductsPrice;
+            if (driver.findElements(By.cssSelector(nextProductsCssLocator + " .regular-price")).size() > 0) {
+                nextProductsPrice = driver.findElement(By.cssSelector(nextProductsCssLocator + " .regular-price")).getText();
+            } else {
+                nextProductsPrice = driver.findElement(By.cssSelector(nextProductsCssLocator + " .price")).getText();
+            }
+            double nextPrice = getPrice(nextProductsPrice);
+
+            Assert.assertEquals(true, (currentPrice >= nextPrice));
+        }
+
+        //9.Для товаров со скидкой указана скидка в процентах вместе с ценой до и после скидки.
+        //10.Необходимо проверить, что цена до и после скидки совпадает с указанным размером скидки.
+        for(int c = 1; c <= numOfProducts; c++) {
+            String currentProductsCssLocator = ".product-miniature:nth-child(" + Integer.toString(c) + ")";
+            if (driver.findElements(By.cssSelector(currentProductsCssLocator + " .regular-price")).size() > 0) {
+                double discountPercent = getPrice(driver.findElement(By.cssSelector(currentProductsCssLocator + " .discount-percentage")).getText());
+                double regularPrice = getPrice(driver.findElement(By.cssSelector(currentProductsCssLocator + " .regular-price")).getText());
+                double actualPrice = getPrice(driver.findElement(By.cssSelector(currentProductsCssLocator + " .price")).getText());
+                System.out.println("discountPercent = " + discountPercent + "\nregularPrice = " + regularPrice + "\nactualPrice = " + actualPrice);
+                //цены и размер скидки получил, осталось только посчитать что все расчитали правильно
+            }
         }
     }
 
@@ -50,5 +95,11 @@ public class SecondTest {
                 if (driver.findElement(By.cssSelector(".currency-selector")).isDisplayed() == true) break;
             }
         }
+    }
+
+    double getPrice(String p) {
+        p = p.replaceAll("[^,0-9]", "");
+        p = p.replaceAll(",", ".");
+        return Double.parseDouble(p);
     }
 }

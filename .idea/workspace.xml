@@ -2,10 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0181224-5eb1-4258-af85-d557c04bfba3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/prestashop-test-task.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/my/prestashop/tests/SecondTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/my/prestashop/tests/SecondTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/learn-webdriver-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/learn-webdriver-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-my.prestashop.tests.FirstTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-my.prestashop.tests.FirstTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-my.prestashop.tests.SecondTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-my.prestashop.tests.SecondTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods-not-run.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/my/prestashop/tests/FirstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/my/prestashop/tests/FirstTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/my/prestashop/tests/SecondTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/my/prestashop/tests/SecondTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +45,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="MavenRunner">
     <option name="delegateBuildToMaven" value="true" />
+    <option name="jreName" value="11" />
   </component>
   <component name="ProjectId" id="1WuMdJgkmQBaRY0kJeP7KCmRkdI" />
   <component name="ProjectViewState">
@@ -35,10 +66,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../learn-webdriver" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -73,7 +104,8 @@
       <method v="2" />
     </configuration>
     <configuration name="FirstTest c&amp;r" type="TestNG">
-      <module name="learn-webdriver" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="my.prestashop.tests" />
       <option name="MAIN_CLASS_NAME" value="my.prestashop.tests.FirstTest" />
@@ -93,7 +125,8 @@
       </method>
     </configuration>
     <configuration name="FirstTest r" type="TestNG">
-      <module name="learn-webdriver" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="my.prestashop.tests" />
       <option name="MAIN_CLASS_NAME" value="my.prestashop.tests.FirstTest" />
@@ -111,13 +144,14 @@
       <method v="2" />
     </configuration>
     <configuration name="SecondTest c&amp;r" type="TestNG" temporary="true">
-      <module name="learn-webdriver" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="my.prestashop.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="my.prestashop.tests" />
       <option name="MAIN_CLASS_NAME" value="my.prestashop.tests.SecondTest" />
@@ -137,13 +171,14 @@
       </method>
     </configuration>
     <configuration name="SecondTest r" type="TestNG">
-      <module name="learn-webdriver" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="my.prestashop.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="my.prestashop.tests" />
       <option name="MAIN_CLASS_NAME" value="my.prestashop.tests.SecondTest" />
@@ -207,10 +242,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="169" key="#BuildArtifactsBeforeRunChooser/0.0.1366.728@0.0.1366.728" timestamp="1580008910367" />
-    <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580074563293">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="193" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580149269918">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1580074563293" />
+    <state x="193" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580149269918" />
     <state x="413" y="140" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1580007768719">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -219,6 +255,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="412" y="148" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1580008481524" />
+    <state x="808" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1580149234149">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="808" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580149234149" />
     <state x="289" y="0" key="#learn-webdriver_[compile]" timestamp="1580036700825">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -235,46 +275,64 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580074571633" />
-    <state width="1286" height="163" key="GridCell.Tab.0.bottom" timestamp="1580071505154">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1580152981569">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1286" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580071505154" />
-    <state width="1286" height="163" key="GridCell.Tab.0.center" timestamp="1580071505154">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="181" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580150648244" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1580152981569" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1580152981569">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1286" height="163" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580071505154" />
-    <state width="1286" height="163" key="GridCell.Tab.0.left" timestamp="1580071505154">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="181" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580150648244" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1580152981569" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1580152981568">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1286" height="163" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580071505154" />
-    <state width="1286" height="163" key="GridCell.Tab.0.right" timestamp="1580071505154">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="181" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580150648244" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1580152981568" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1580152981569">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1286" height="163" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580071505154" />
-    <state width="1286" height="203" key="GridCell.Tab.1.bottom" timestamp="1580061208613">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="181" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580150648244" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1580152981569" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1580152981569">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1286" height="203" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580061208613" />
-    <state width="1286" height="203" key="GridCell.Tab.1.center" timestamp="1580061208613">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1580152981569" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1580152981569">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1286" height="203" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1580061208613" />
-    <state width="1286" height="203" key="GridCell.Tab.1.left" timestamp="1580061208613">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1580152981569" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1580152981569">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1286" height="203" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1580061208613" />
-    <state width="1286" height="203" key="GridCell.Tab.1.right" timestamp="1580061208613">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1580152981569" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1580152981569">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1286" height="203" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1580061208613" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1580004513898">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1580152981569" />
+    <state x="259" y="0" key="SettingsEditor" timestamp="1580148864690">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580004513898" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1580074415971">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="259" y="0" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580148864690" />
+    <state x="533" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1580147717711">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1580074415971" />
+    <state x="533" y="269" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580147717711" />
+    <state x="618" y="170" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1580149592939">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="618" y="170" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580149592939" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1580000532757">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -292,6 +350,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/my/prestashop/tests/FirstTest.java</url>
           <line>17</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/my/prestashop/tests/SecondTest.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
