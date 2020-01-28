@@ -1,2 +1,4 @@
 my\prestashop\tests\SecondTest.class
+my\prestashop\tests\SearchPage.class
 my\prestashop\tests\FirstTest.class
+my\prestashop\tests\HomePage.class

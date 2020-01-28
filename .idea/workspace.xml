@@ -2,32 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0181224-5eb1-4258-af85-d557c04bfba3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/my/prestashop/tests/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/my/prestashop/tests/SearchPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/my/prestashop/tests/SecondTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/my/prestashop/tests/SecondTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/learn-webdriver-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/learn-webdriver-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-my.prestashop.tests.FirstTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-my.prestashop.tests.FirstTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-my.prestashop.tests.SecondTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-my.prestashop.tests.SecondTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods-not-run.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/my/prestashop/tests/FirstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/my/prestashop/tests/FirstTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/my/prestashop/tests/SecondTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/my/prestashop/tests/SecondTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -247,6 +225,10 @@
     </state>
     <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1580074563293" />
     <state x="193" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580149269918" />
+    <state x="2012" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1580231563605">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2012" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1580231563605" />
     <state x="413" y="140" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1580007768719">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -275,60 +257,61 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580074571633" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1580152981569">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1580238786800">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1286" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580071505154" />
     <state width="1877" height="181" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580150648244" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1580152981569" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1580152981569">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1580238786800" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1580238786799">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1286" height="163" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580071505154" />
     <state width="1877" height="181" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580150648244" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1580152981569" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1580152981568">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1580238786799" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1580238786799">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1286" height="163" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580071505154" />
     <state width="1877" height="181" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580150648244" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1580152981568" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1580152981569">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1580238786799" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1580238786800">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1286" height="163" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580071505154" />
     <state width="1877" height="181" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580150648244" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1580152981569" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1580152981569">
+    <state width="1877" height="348" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1580238786800" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1580238786800">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1286" height="203" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580061208613" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1580152981569" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1580152981569">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1580238786800" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1580238786800">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1286" height="203" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1580061208613" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1580152981569" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1580152981569">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1580238786800" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1580238786800">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1286" height="203" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1580061208613" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1580152981569" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1580152981569">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1580238786800" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1580238786800">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1286" height="203" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1580061208613" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1580152981569" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1580238786800" />
     <state x="259" y="0" key="SettingsEditor" timestamp="1580148864690">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580004513898" />
     <state x="259" y="0" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580148864690" />
-    <state x="533" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1580147717711">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2453" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1580231031620">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1580074415971" />
     <state x="533" y="269" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580147717711" />
+    <state x="2453" y="269" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1580231031620" />
     <state x="618" y="170" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1580149592939">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -350,11 +333,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/my/prestashop/tests/FirstTest.java</url>
           <line>17</line>
           <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/my/prestashop/tests/SecondTest.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
