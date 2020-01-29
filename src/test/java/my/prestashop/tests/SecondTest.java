@@ -3,7 +3,6 @@ package my.prestashop.tests;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -12,6 +11,7 @@ import org.testng.annotations.Test;
 public class SecondTest {
 
     WebDriver driver = new ChromeDriver();
+    WebDriverWait wait = new WebDriverWait(driver, 15);
 
     @Test
     public void checkSearch() {
@@ -28,37 +28,28 @@ public class SecondTest {
 
         //5.Выполнить проверку, что страница "Результаты поиска" содержит надпись "Товаров: x",
         // где x - количество действительно найденных товаров.
-        SearchPage searchPage = new SearchPage();
-        Assert.assertEquals(searchPage.checkNumOfProducts(driver), true);
+        SearchPage searchPage = new SearchPage(driver);
+        int totalProductsInMessage = searchPage.getTotalProductsFromMessage(driver);
+        int actualNumberOfProducts = searchPage.getActualNumberOfProducts(driver);
+        Assert.assertEquals(totalProductsInMessage, actualNumberOfProducts);
 
 
         //6.Проверить, что цена всех показанных результатов отображается в долларах.
-        Assert.assertEquals(searchPage.checkProductsCurrency(driver, "$"), true);
-
-        /*
-        //7.Установить сортировку "от высокой к низкой."
-        driver.findElement(By.cssSelector(".products-sort-order")).click();
-        driver.findElement(By.xpath("//a[contains(@href, 'product.price.desc')]")).click();
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.textToBePresentInElement(driver.findElement(By.cssSelector(".products-sort-order")), driver.findElement(By.xpath("//a[contains(@href, 'product.price.desc')]")).getText()));
-        double highestPrice = getHighestPrice(numOfProducts);
-        double firstProductPrice = getPrice(driver.findElement(By.cssSelector(" .price")).getText());
-        int counter = 0;
-        while (highestPrice == firstProductPrice) {
-            try {
-                Thread.sleep(1000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-            counter++;
-            if(counter == 10) return;
+        for(int c = 1; c <= searchPage.getActualNumberOfProducts(driver); c++) {
+            Assert.assertEquals(searchPage.getProductPriceCurrency(driver, c), "$");
         }
+
+        //7.Установить сортировку "от высокой к низкой."
+        searchPage.productSortField.click();
+        searchPage.sortOptionPriceDesc.click();
+        wait.until(ExpectedConditions.textToBePresentInElement(searchPage.productSortField, searchPage.sortOptionPriceDesc.getText()));
+        searchPage.waitProductsAreSorted_priceDesc(driver);
 
 
 
         //8.Проверить, что товары отсортированы по цене, при этом некоторые товары могут быть со скидкой,
         // и при сортировке используется цена без скидки.
-        for(int c = 1; c < numOfProducts; c++) {
+        /*for(int c = 1; c < numOfProducts; c++) {
             String currentProductsCssLocator = ".product-miniature:nth-child(" + Integer.toString(c) + ")";
             String currentProductPrice;
             if (driver.findElements(By.cssSelector(currentProductsCssLocator + " .regular-price")).size() > 0) {
@@ -79,7 +70,9 @@ public class SecondTest {
 
             Assert.assertEquals((currentPrice >= nextPrice), true);
         }
+         */
 
+        /*
         //9.Для товаров со скидкой указана скидка в процентах вместе с ценой до и после скидки.
         //10.Необходимо проверить, что цена до и после скидки совпадает с указанным размером скидки.
         for(int c = 1; c <= numOfProducts; c++) {
