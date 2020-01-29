@@ -1,4 +1,5 @@
-D:\github repositories\prestashop-test-task\src\test\java\my\prestashop\tests\FirstTest.java
-D:\github repositories\prestashop-test-task\src\test\java\my\prestashop\tests\SearchPage.java
-D:\github repositories\prestashop-test-task\src\test\java\my\prestashop\tests\SecondTest.java
-D:\github repositories\prestashop-test-task\src\test\java\my\prestashop\tests\HomePage.java
+D:\github repositories\prestashop-test-task\src\test\java\my\prestashop\global_page_blocks\ProductsSection.java
+D:\github repositories\prestashop-test-task\src\test\java\my\prestashop\tests\Tests.java
+D:\github repositories\prestashop-test-task\src\test\java\my\prestashop\global_page_blocks\Header.java
+D:\github repositories\prestashop-test-task\src\test\java\my\prestashop\pages\SearchPage.java
+D:\github repositories\prestashop-test-task\src\test\java\my\prestashop\pages\HomePage.java

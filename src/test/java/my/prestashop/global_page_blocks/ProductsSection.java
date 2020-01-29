@@ -1,16 +1,12 @@
-package my.prestashop.tests;
+package my.prestashop.global_page_blocks;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
-
 import java.util.List;
 
-public class SearchPage {
-    public String productSortFieldCssLocator = ".products-sort-order";
-    public String sortOptionPriceDescXpathLocator = "//a[contains(@href, 'product.price.desc')]";
-    public String totalProductsMessageCssLocator = ".total-products";
+public class ProductsSection {
     public String allProductsCssLocator = ".product-miniature";
     public String productActualPriceCssLocator = ".product-miniature:nth-child(Index) .price";
     public String productRegularPriceCssLocator = ".product-miniature:nth-child(Index) .regular-price";
@@ -19,28 +15,12 @@ public class SearchPage {
     public String eurSign = "€";
     public String uahSign = "₴";
 
-    WebElement productSortField;
-    WebElement sortOptionPriceDesc;
-    WebElement totalProductsMessage;
-    List<WebElement> products;
+    public List<WebElement> products;
 
-
-    public SearchPage(WebDriver driver) {
-        productSortField = driver.findElement(By.cssSelector(productSortFieldCssLocator));
-        sortOptionPriceDesc = driver.findElement(By.xpath(sortOptionPriceDescXpathLocator));
-        totalProductsMessage = driver.findElement(By.cssSelector(totalProductsMessageCssLocator));
+    public ProductsSection(WebDriver driver) {
         products = driver.findElements(By.cssSelector(allProductsCssLocator));
     }
 
-
-    public int getTotalProductsFromMessage(WebDriver driver) {
-        String totalProducts = totalProductsMessage.getText().replaceAll("\\D+", "");
-        return Integer.parseInt(totalProducts);
-    }
-
-    public int getActualNumberOfProducts(WebDriver driver) {
-        return products.size();
-    }
 
     public String getProductPriceCurrency(WebDriver driver, int productIndex) {
         WebElement productPrice = driver.findElement(By.cssSelector(productActualPriceCssLocator.replaceAll("Index", Integer.toString(productIndex))));
@@ -48,6 +28,10 @@ public class SearchPage {
         else if(productPrice.getText().contains(eurSign)) { return eurSign; }
         else if(productPrice.getText().contains(uahSign)) {return uahSign; }
         else return null;
+    }
+
+    public int getActualNumberOfProducts(WebDriver driver) {
+        return products.size();
     }
 
     double getPrice(String p) {
