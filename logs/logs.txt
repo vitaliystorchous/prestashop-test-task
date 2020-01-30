@@ -1,0 +1,149 @@
+
+By.cssSelector: .product-miniature - searching
+By.cssSelector: .product-miniature - found
+By.cssSelector: .currency-selector - searching
+By.cssSelector: .currency-selector - found
+By.cssSelector: .currency-selector - searching
+By.cssSelector: .currency-selector - found
+By.cssSelector: .currency-selector - searching
+By.cssSelector: .currency-selector - found
+By.cssSelector: .currency-selector - searching
+By.cssSelector: .currency-selector - found
+By.cssSelector: .product-miniature:nth-child(1) .price - searching
+By.cssSelector: .product-miniature:nth-child(1) .price - found
+By.cssSelector: .product-miniature:nth-child(2) .price - searching
+By.cssSelector: .product-miniature:nth-child(2) .price - found
+By.cssSelector: .product-miniature:nth-child(3) .price - searching
+By.cssSelector: .product-miniature:nth-child(3) .price - found
+By.cssSelector: .product-miniature:nth-child(4) .price - searching
+By.cssSelector: .product-miniature:nth-child(4) .price - found
+By.cssSelector: .product-miniature:nth-child(5) .price - searching
+By.cssSelector: .product-miniature:nth-child(5) .price - found
+By.cssSelector: .product-miniature:nth-child(6) .price - searching
+By.cssSelector: .product-miniature:nth-child(6) .price - found
+By.cssSelector: .product-miniature:nth-child(7) .price - searching
+By.cssSelector: .product-miniature:nth-child(7) .price - found
+By.cssSelector: .currency-selector - searching
+By.cssSelector: .currency-selector - found
+By.cssSelector: .currency-selector .expand-more - searching
+By.cssSelector: .currency-selector .expand-more - found
+UAH ₴ - clicking
+By.partialLinkText: $ - searching
+By.partialLinkText: $ - found
+USD $ - clicking
+By.cssSelector: .product-miniature:nth-child(1) .price - searching
+By.cssSelector: .product-miniature:nth-child(1) .price - found
+By.cssSelector: .product-miniature:nth-child(2) .price - searching
+By.cssSelector: .product-miniature:nth-child(2) .price - found
+By.cssSelector: .product-miniature:nth-child(3) .price - searching
+By.cssSelector: .product-miniature:nth-child(3) .price - found
+By.cssSelector: .product-miniature:nth-child(4) .price - searching
+By.cssSelector: .product-miniature:nth-child(4) .price - found
+By.cssSelector: .product-miniature:nth-child(5) .price - searching
+By.cssSelector: .product-miniature:nth-child(5) .price - found
+By.cssSelector: .product-miniature:nth-child(6) .price - searching
+By.cssSelector: .product-miniature:nth-child(6) .price - found
+By.cssSelector: .product-miniature:nth-child(7) .price - searching
+By.cssSelector: .product-miniature:nth-child(7) .price - found
+By.cssSelector: .currency-selector - searching
+By.cssSelector: .currency-selector - found
+By.cssSelector: .currency-selector .expand-more - searching
+By.cssSelector: .currency-selector .expand-more - found
+USD $ - clicking
+By.partialLinkText: € - searching
+By.partialLinkText: € - found
+EUR € - clicking
+By.cssSelector: .product-miniature:nth-child(1) .price - searching
+By.cssSelector: .product-miniature:nth-child(1) .price - found
+By.cssSelector: .product-miniature:nth-child(2) .price - searching
+By.cssSelector: .product-miniature:nth-child(2) .price - found
+By.cssSelector: .product-miniature:nth-child(3) .price - searching
+By.cssSelector: .product-miniature:nth-child(3) .price - found
+By.cssSelector: .product-miniature:nth-child(4) .price - searching
+By.cssSelector: .product-miniature:nth-child(4) .price - found
+By.cssSelector: .product-miniature:nth-child(5) .price - searching
+By.cssSelector: .product-miniature:nth-child(5) .price - found
+By.cssSelector: .product-miniature:nth-child(6) .price - searching
+By.cssSelector: .product-miniature:nth-child(6) .price - found
+By.cssSelector: .product-miniature:nth-child(7) .price - searching
+By.cssSelector: .product-miniature:nth-child(7) .price - found
+By.cssSelector: .currency-selector - searching
+By.cssSelector: .currency-selector - found
+By.cssSelector: .currency-selector .expand-more - searching
+By.cssSelector: .currency-selector .expand-more - found
+EUR € - clicking
+By.partialLinkText: ₴ - searching
+By.partialLinkText: ₴ - found
+UAH ₴ - clicking
+By.cssSelector: .product-miniature:nth-child(1) .price - searching
+By.cssSelector: .product-miniature:nth-child(1) .price - found
+By.cssSelector: .product-miniature:nth-child(2) .price - searching
+By.cssSelector: .product-miniature:nth-child(2) .price - found
+By.cssSelector: .product-miniature:nth-child(3) .price - searching
+By.cssSelector: .product-miniature:nth-child(3) .price - found
+By.cssSelector: .product-miniature:nth-child(4) .price - searching
+By.cssSelector: .product-miniature:nth-child(4) .price - found
+By.cssSelector: .product-miniature:nth-child(5) .price - searching
+By.cssSelector: .product-miniature:nth-child(5) .price - found
+By.cssSelector: .product-miniature:nth-child(6) .price - searching
+By.cssSelector: .product-miniature:nth-child(6) .price - found
+By.cssSelector: .product-miniature:nth-child(7) .price - searching
+By.cssSelector: .product-miniature:nth-child(7) .price - found
+By.cssSelector: .currency-selector - searching
+By.cssSelector: .currency-selector - found
+By.cssSelector: .currency-selector .expand-more - searching
+By.cssSelector: .currency-selector .expand-more - found
+UAH ₴ - clicking
+By.partialLinkText: $ - searching
+By.partialLinkText: $ - found
+USD $ - clicking
+By.name: s - searching
+By.name: s - found
+By.cssSelector: [type="submit"] .search - searching
+By.cssSelector: [type="submit"] .search - found
+ - clicking
+By.cssSelector: .products-sort-order - searching
+By.cssSelector: .products-sort-order - found
+By.xpath: //a[contains(@href, 'product.price.desc')] - searching
+By.xpath: //a[contains(@href, 'product.price.desc')] - found
+By.cssSelector: .total-products - searching
+By.cssSelector: .total-products - found
+By.cssSelector: .product-miniature - searching
+By.cssSelector: .product-miniature - found
+By.cssSelector: .product-miniature:nth-child(1) .price - searching
+By.cssSelector: .product-miniature:nth-child(1) .price - found
+By.cssSelector: .product-miniature:nth-child(2) .price - searching
+By.cssSelector: .product-miniature:nth-child(2) .price - found
+By.cssSelector: .product-miniature:nth-child(3) .price - searching
+By.cssSelector: .product-miniature:nth-child(3) .price - found
+By.cssSelector: .product-miniature:nth-child(4) .price - searching
+By.cssSelector: .product-miniature:nth-child(4) .price - found
+By.cssSelector: .product-miniature:nth-child(5) .price - searching
+By.cssSelector: .product-miniature:nth-child(5) .price - found
+By.cssSelector: .product-miniature:nth-child(6) .price - searching
+By.cssSelector: .product-miniature:nth-child(6) .price - found
+By.cssSelector: .product-miniature:nth-child(7) .price - searching
+By.cssSelector: .product-miniature:nth-child(7) .price - found
+Релевантность
+ - clicking
+Цене: от высокой к низкой - clicking
+By.cssSelector: .product-miniature:nth-child(1) .price - searching
+By.cssSelector: .product-miniature:nth-child(1) .price - found
+By.cssSelector: .product-miniature:nth-child(2) .price - searching
+By.cssSelector: .product-miniature:nth-child(2) .price - found
+By.cssSelector: .product-miniature:nth-child(3) .price - searching
+By.cssSelector: .product-miniature:nth-child(3) .price - found
+By.cssSelector: .product-miniature:nth-child(4) .price - searching
+By.cssSelector: .product-miniature:nth-child(4) .price - found
+By.cssSelector: .product-miniature:nth-child(5) .price - searching
+By.cssSelector: .product-miniature:nth-child(5) .price - found
+By.cssSelector: .product-miniature:nth-child(6) .price - searching
+By.cssSelector: .product-miniature:nth-child(6) .price - found
+By.cssSelector: .product-miniature:nth-child(7) .price - searching
+By.cssSelector: .product-miniature:nth-child(7) .price - found
+By.cssSelector: .product-miniature:nth-child(1) .price - searching
+By.cssSelector: .product-miniature:nth-child(1) .price - found
+By.cssSelector: .product-miniature:nth-child(1) .regular-price - searching
+By.cssSelector: .product-miniature:nth-child(1) .regular-price - found
+By.cssSelector: .product-miniature:nth-child(1) .price - searching
+By.cssSelector: .product-miniature:nth-child(1) .price

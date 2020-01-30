@@ -1,21 +1,22 @@
 package my.prestashop.tests;
 
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import my.prestashop.pages.*;
-import my.prestashop.general.SiteLauncher;
+import my.prestashop.general.*;
 
 public class TestSuit {
 
-    WebDriver driver;
+    EventFiringWebDriver driver;
 
     @BeforeTest
     public void openBrowser() {
-        driver = new ChromeDriver();
+        driver = new EventFiringWebDriver(new ChromeDriver());
+        driver.register(new Listener());
     }
 
     @Test
