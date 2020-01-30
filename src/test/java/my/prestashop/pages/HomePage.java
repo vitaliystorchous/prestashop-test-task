@@ -6,8 +6,7 @@ import org.openqa.selenium.WebElement;
 import my.prestashop.global_page_blocks.*;
 
 public class HomePage {
-    //Page URl and locators of page elements
-    String homePageURL = "http://prestashop-automation.qatestlab.com.ua/ru/";
+    //Locators of page elements
     String searchFieldNameLocator = "s";
     String searchSubmitButtonCssLocator = "[type=\"submit\"] .search";
 
@@ -23,10 +22,6 @@ public class HomePage {
 
 
     //Page methods
-    public void openPage(WebDriver driver) {
-        driver.get(homePageURL);
-    }
-
     public void searchByWord(WebDriver driver, String searchWord) {
         WebElement searchField = driver.findElement(By.name(searchFieldNameLocator));
         WebElement searchSubmitButton = driver.findElement(By.cssSelector(searchSubmitButtonCssLocator));

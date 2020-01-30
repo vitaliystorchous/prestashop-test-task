@@ -1,5 +1,6 @@
+my\prestashop\general\SiteLauncher.class
 my\prestashop\global_page_blocks\ProductsSection.class
-my\prestashop\tests\Tests.class
+my\prestashop\tests\TestSuit.class
 my\prestashop\pages\HomePage.class
 my\prestashop\pages\SearchPage.class
 my\prestashop\global_page_blocks\Header.class

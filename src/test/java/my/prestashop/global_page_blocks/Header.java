@@ -35,6 +35,7 @@ public class Header {
     }
 
     public String getSettedCurrency(WebDriver driver) {
+        checkCurrencySelector(driver);
         if(driver.findElement(By.cssSelector(currencySelectorFieldCssLocator)).getText().contains(usdSign)) return usdSign;
         else if(driver.findElement(By.cssSelector(currencySelectorFieldCssLocator)).getText().contains(eurSign)) return eurSign;
         else if(driver.findElement(By.cssSelector(currencySelectorFieldCssLocator)).getText().contains(uahSign)) return uahSign;
